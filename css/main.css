@@ -120,3 +120,24 @@ body {
 
 .rollin {
   width: 20px; }
+
+.menubelow {
+  width: 116.688em;
+  height: 40px;
+  border-bottom: 1px solid #E5E7E3; }
+
+.insidemenu {
+  width: 1050px;
+  height: 39px;
+  margin: 0 auto; }
+  .insidemenu a {
+    display: inline-block;
+    margin: 10px 13px 5px;
+    text-align: left;
+    font-size: 14px;
+    text-decoration: none;
+    color: #606060; }
+    .insidemenu a:active {
+      color: #606060; }
+    .insidemenu a:hover {
+      color: black; }
