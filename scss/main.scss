@@ -2,15 +2,12 @@ body {
   max-width: 100%;
 }
 
-[contenteditable="true"]:focus {
-    outline: none;
-}
-
+//Very top header with logo and input fields
 
 .header {
   width: 116.688em;
   height: 80px;
-  // border: 1px solid black;
+  border-bottom: 1px solid #E5E7E3;
 }
 
 
@@ -20,35 +17,32 @@ body {
   // display: inline-block;
   margin: 0 auto;
   box-sizing: border-box;
+  // position: relative;
   // border: 1px solid black;
 }
 
 .logo {
-  width: 100px;
-  height: 50px;
   display: inline-block;
-  // border: 1px solid black;
-  margin-right: 15px;
-  padding-top: 15px;
-  text-align: center;
-  & a{
-    color: #F67000;
-    text-decoration: none;
-    font-size: 30px;
-  }
-
+  clear: both;
+  margin-right: 20px;
+  box-sizing: border-box;
+  float: left;
+  width: 75px;
+  height: 80px;
+  margin-top: 20px;
 }
 
 .searchbar {
   width: 350px;
   height: 50px;
   display: inline-block;
+  clear: both;
   // border: 1px solid black;
   padding-top: 20px;
   vertical-align: middle;
   & input {
-    box-sizing: border-box;
-    float: left;
+    // box-sizing: border-box;
+    // float: left;
     margin: 0px;
     &.button {
       width: 100px;
@@ -57,13 +51,17 @@ body {
       background-color: #51A6C1;
       color: white;
       border: none;
+      box-sizing: border-box;
+      float: left;
 
     }
     &.search {
       width: 250px;
       height: 35px;
       border-radius: 0.3em 0 0 0.3em;
-      border: 1px solid gray;
+      border: 1px solid #E5E7E3;
+      box-sizing: border-box;
+      float: left;
     }
   }
 }
@@ -162,5 +160,5 @@ body {
   width: 20px;
 }
 
-
+// Second header with all links
 
