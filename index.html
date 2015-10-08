@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SAMPLE PROJECT</title>
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="verytop">
+    <div class="header">
+      <div class="topcontent1">
+        <div class="logo">
+          <a href="#">Etsy</a>
+        </div>
+        <div class="searchbar">
+          <input class="search" type="search" value="Search for items or shops">
+          <input class="button" type="button" value="Search">
+        </div>
+        <div class="linksnsignin">
+          <ul class="account">
+            <li><a href="#">Sell on Etsy</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#" class="login">Sign in</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+<!--   <div class="container"></div> -->
+
+<img src="">
+
+
+
+<script type="text/template" id="itemTemplate">
+  <div>
+    <img src="<%= Images[0].url_170x135%>">
+    <p>
+      <%= title%>
+    </p>  
+    <p>
+      <%= price%>
+    </p>
+    <p>
+      
+    </p>
+  </div>
+</script>
+
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/underscore/underscore-min.js"></script>
+  <script src="js/etsy.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
