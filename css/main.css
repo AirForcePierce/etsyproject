@@ -2,7 +2,6 @@ body {
   max-width: 100%; }
 
 .header {
-  width: 116.688em;
   height: 80px;
   border-bottom: 1px solid #E5E7E3; }
 
@@ -10,7 +9,8 @@ body {
   width: 1050px;
   height: 80px;
   margin: 0 auto;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow: hidden; }
 
 .logo {
   display: inline-block;
@@ -19,8 +19,7 @@ body {
   box-sizing: border-box;
   float: left;
   width: 75px;
-  height: 80px;
-  margin-top: 20px; }
+  margin-top: 27px; }
 
 .searchbar {
   width: 350px;
@@ -49,20 +48,22 @@ body {
       float: left; }
 
 .linksnsignin {
-  width: 400px;
   height: 80px;
-  float: right;
-  vertical-align: middle; }
+  vertical-align: middle;
+  display: inline-block;
+  overflow: hidden;
+  margin-left: 200px; }
 
 .account {
   width: 350px;
   height: 80px;
   margin: 0px;
-  padding-left: 20px;
-  padding-top: 20px;
-  list-style: none; }
+  padding-left: 0px;
+  padding-top: 7px;
+  list-style: none;
+  float: right; }
   .account li {
-    height: 20px;
+    height: 40px;
     display: inline-block;
     margin: 5px; }
     .account li a {
@@ -82,58 +83,25 @@ body {
         border-radius: 5px;
         padding: 8px; }
 
-.selling {
-  position: absolute;
-  top: 30px;
-  bottom: 0;
-  right: 710px; }
-
-.register {
-  position: absolute;
-  top: 30px;
-  bottom: 0;
-  right: 640px; }
-
-.login {
-  position: absolute;
-  top: 30px;
-  right: 550px; }
-
 .shop {
-  position: absolute;
-  top: 40px;
-  right: 499px; }
-  .shop:before {
-    content: '';
-    position: absolute;
-    display: block;
-    left: -10px;
-    top: -30px;
-    bottom: -5px;
-    background-color: #E5E7E3;
-    width: 1px; }
-
-.imgsrc1 {
-  position: absolute;
-  top: 20px;
-  right: 505px; }
+  width: 40px; }
 
 .rollin {
+  display: inline !important;
   width: 20px; }
 
 .menubelow {
-  width: 116.688em;
   height: 40px;
   border-bottom: 1px solid #E5E7E3; }
 
 .insidemenu {
   width: 1050px;
   height: 39px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
   .insidemenu a {
     display: inline-block;
     margin: 10px 13px 5px;
-    text-align: left;
     font-size: 14px;
     text-decoration: none;
     color: #606060; }
