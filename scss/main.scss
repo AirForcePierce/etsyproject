@@ -1,11 +1,13 @@
-  body {
+@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "../bower_components/neat/app/assets/stylesheets/_neat.scss";
+
+body {
   max-width: 100%;
 }
 
 //Very top header with logo and input fields
 
 .header {
-  // width: 100%;
   height: 80px;
   border-bottom: 1px solid #E5E7E3;
 }
@@ -14,12 +16,9 @@
 .topcontent1{
   width: 1050px;
   height: 80px; 
-  // display: inline-block;
   margin: 0 auto;
   box-sizing: border-box;
   overflow: hidden;
-  // position: relative;
-  // border: 1px solid black;
 }
 
 .logo {
@@ -67,10 +66,7 @@
 }
 
 .linksnsignin {
-  // width: 400px;
   height: 80px;
-  // border: 1px solid black;
-  // float: right;
   vertical-align: middle;
   display: inline-block;
   overflow: hidden;
@@ -112,28 +108,10 @@
       }
     }
   }
-// .selling {
-//   position: absolute;
-//   top: 30px;
-//   bottom: 0;
-//   right: 710px;
-// }
 
-// .register {
-//   position: absolute;
-//   top: 30px;
-//   bottom: 0;
-//   right: 640px;
-// }
 .shop {
   width: 40px;
 }
-
-// .imgsrc1 {
-//   position: absolute;
-//   top: 20px;
-//   right: 505px;
-// }
 
 .rollin {
   display: inline !important;
@@ -143,7 +121,6 @@
 // Menu below with all links
 
 .menubelow {
-  // width: 116.688em;
   height: 40px;
   border-bottom: 1px solid #E5E7E3;
 }
@@ -156,7 +133,6 @@
   & a {
     display: inline-block;
     margin: 10px 13px 5px;
-    // text-align: left;
     font-size: 14px;
     text-decoration: none;
     color: #606060;
@@ -168,5 +144,24 @@
     }
   }
 }
+
+//Below Content Left Side Menus
+
+.belowcontent {
+  @include outer-container;
+  background-color: #F5F5F1;
+  height: 4000px;
+  max-width: none;
+}
+
+.content {
+  width: 1000px;
+  height: 4000px;
+  margin: 0 auto;
+  border: 1px solid black;
+  background-color: green;
+}
+
+
 
 
