@@ -35,7 +35,8 @@ body {
   display: inline-block;
   clear: both;
   padding-top: 20px;
-  vertical-align: middle; }
+  vertical-align: middle;
+  margin-bottom: 20px; }
   .searchbar input {
     margin: 0px; }
     .searchbar input.button {
@@ -134,5 +135,72 @@ body {
   width: 1000px;
   height: 4000px;
   margin: 0 auto;
-  border: 1px solid black;
-  background-color: green; }
+  background-color: #F5F5F1; }
+
+.clearbar {
+  width: 1000px;
+  height: 30px;
+  background-color: #F5F5F1; }
+
+.allmenus {
+  width: 25%;
+  height: 4000px;
+  background-color: #F5F5F1;
+  margin-right: 0px;
+  float: left; }
+
+.showresults {
+  background-color: #F5F5F1;
+  text-alight: left;
+  font-size: 13px; }
+
+.allcats {
+  font-size: 14px; }
+
+.menuone {
+  background-color: white;
+  border: 1px solid #E1E3DF; }
+  .menuone ul {
+    list-style: none; }
+    .menuone ul li {
+      margin-top: 3px;
+      margin-bottom: 3px; }
+      .menuone ul li a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #3492C4; }
+        .menuone ul li aactive {
+          color: #3492C4; }
+
+.refineresults {
+  background-color: #F5F5F1;
+  text-alight: left;
+  font-size: 13px; }
+
+.bubbles {
+  display: inline; }
+
+.itype {
+  font-size: 14px;
+  padding-top: 4px; }
+
+.menutwo {
+  background-color: white;
+  border-right: 10px solid #F5F5F1; }
+  .menutwo ul {
+    list-style: none; }
+    .menutwo ul li {
+      margin-top: 5px;
+      margin-bottom: 5px; }
+      .menutwo ul li a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #3492C4; }
+        .menutwo ul li aactive {
+          color: #3492C4; }
+
+.piccontent {
+  width: 75%;
+  height: 4000px;
+  margin-right: 0px;
+  float: right; }
