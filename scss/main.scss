@@ -220,7 +220,8 @@ body {
 
 .itype{
   font-size: 14px;
-  padding-top: 4px;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 .menutwo {
@@ -228,6 +229,8 @@ body {
   border-right: 10px solid #F5F5F1;
   & ul {
     list-style: none;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E1E3DF;
     li {
       margin-top: 5px;
       margin-bottom: 5px;
@@ -243,6 +246,42 @@ body {
   }
 }
 
+.priceline {
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.inputprices {
+  margin-left: 20px;
+  & span {
+    font-size: 12px;
+  }
+}
+.priceinput {
+  & .hi {
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+  }
+}
+
+.lo {
+  width: 50px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #D9D9D9;
+}
+
+.pricebut {
+  width: 40px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px;
+}
 //Below Content Right Side
 
 .piccontent {
