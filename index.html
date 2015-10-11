@@ -45,7 +45,7 @@
   <div class="belowcontent">
     <div class="content">
       <div class="clearbar">
-        </div>
+      </div>
       <div class="allmenus">
         <div class="firstmenu">
           <h3 class="showresults">Show results for:</h3>
@@ -118,14 +118,32 @@
               <select class="selctions">
                 <option value="US">United States</option>
               </select>
-              
             </div>            
-            </div>
           </div>
         </div>
-      </div>
+        </div>
       <div class="piccontent">
-        
+        <div class="topofmain">
+          <div class="leftside">
+          <a href="#">All Catergories</a><span> > "computer chair" (161 results)</span>  
+          </div>
+          <div class="rightside">
+          <span>Sort by: <a href="#">Relevancy</a></span>
+          </div>
+         </div>
+         <div class="container"></div>
+         <div class="pageturning">
+             <button href="#" class="prevnext">&lt;</button>
+             <button href="#" class="numbaz">1</button>
+             <button href="#" class="numbaz">2</button>
+             <button href="#" class="numbaz">3</button>
+             <button href="#" class="numbaz">4</button>
+             <button href="#" class="nextprev">&gt;</button>
+          </div>
+         </div>
+         </div>
+         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -135,18 +153,18 @@
 <!--   <div class="container"></div> -->
 
 <script type="text/template" id="itemTemplate">
-  <div>
-    <img src="<%= Images[0].url_170x135%>">
-    <p>
+  <li class="block">
+    <a href="#" class="myimages"><div class="favstuff"><img class="imghelp" src="<%= Images[0].url_170x135%>"><input class="hambug" type="image" src="images/hamburger.png"><input class="heart" type="image" src="images/heart.png"></div></a>
+    <span class="titleof">
       <%= title%>
-    </p>  
-    <p>
-      <%= price%>
-    </p>
-    <p>
-      
-    </p>
-  </div>
+    </span>  
+    <span class="shopof">
+      <a class="shopname" href=""><%= Shop.shop_name%></a>
+    </span>
+    <span class="priceof">
+      $<%= price%><%= currency_code%>
+    </span>    
+  </li> 
 </script>
 
 
