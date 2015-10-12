@@ -154,12 +154,12 @@
 
 <script type="text/template" id="itemTemplate">
   <li class="block">
-    <a href="#" class="myimages"><div class="favstuff"><img class="imghelp" src="<%= Images[0].url_170x135%>"><input class="hambug" type="image" src="images/hamburger.png"><input class="heart" type="image" src="images/heart.png"></div></a>
-    <span class="titleof">
+    <a href="<%= url%>" class="myimages"><div class="favstuff"><img class="imghelp" src="<%= Images[0].url_170x135%>"><input class="hambug" type="image" src="images/hamburger.png"><input class="heart" type="image" src="images/heart.png"></div></a>
+    <a href="<%= url%>" class="titleof">
       <%= title%>
-    </span>  
+    </a>  
     <span class="shopof">
-      <a class="shopname" href=""><%= Shop.shop_name%></a>
+      <a class="shopname" href="<%= Shop.url%>"><%= Shop.shop_name%></a>
     </span>
     <span class="priceof">
       $<%= price%><%= currency_code%>

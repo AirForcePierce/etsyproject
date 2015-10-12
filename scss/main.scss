@@ -427,7 +427,7 @@ li.block {
   @include omega(3n);
   background-color: white;
   width: 230px;
-  height: 220px;
+  height: 200px;
   margin: 10px;
   font-size: 12px;
   border-radius: 3px;
@@ -442,6 +442,8 @@ li.block {
   wordwrap: pre-wrap;
   display: inline-block;
   width: 230px;
+  text-decoration: none;
+  color: black;
 }
 
 .priceof {

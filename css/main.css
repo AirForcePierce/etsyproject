@@ -361,7 +361,7 @@ li.block {
   width: 23.23176%;
   background-color: white;
   width: 230px;
-  height: 220px;
+  height: 200px;
   margin: 10px;
   font-size: 12px;
   border-radius: 3px; }
@@ -380,7 +380,9 @@ li.block {
   margin-bottom: 5px;
   wordwrap: pre-wrap;
   display: inline-block;
-  width: 230px; }
+  width: 230px;
+  text-decoration: none;
+  color: black; }
 
 .priceof {
   display: inline-block;
