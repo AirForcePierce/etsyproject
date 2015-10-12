@@ -55,7 +55,9 @@ body {
       border-radius: 0.3em 0 0 0.3em;
       border: 1px solid #E5E7E3;
       box-sizing: border-box;
-      float: left; }
+      float: left;
+      background-color: #FBFBFA;
+      padding-left: 10px; }
 
 .linksnsignin {
   height: 80px;
